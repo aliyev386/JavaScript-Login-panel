@@ -1,0 +1,173 @@
+
+body{
+    background: #f0f0f0;
+}
+#titleText{
+
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 7.1ch;
+    color: #1877F2;
+    text-transform: lowercase;
+    margin-left: 40%;
+}
+#mainLogin{
+    background: #ffffff;
+    width: 30%;
+    height: 580px;
+    margin-left: 35%;
+    margin-top: -1%;
+    overflow: hidden;
+    box-shadow: -1px -1px 16px 1px rgba(214, 214, 214, 0.68);
+    -webkit-box-shadow: -1px -1px 16px 1px rgba(214, 214, 214, 0.68);
+    -moz-box-shadow: -1px -1px 16px 1px rgba(214, 214, 214, 0.68);
+    border-radius: 7px 7px 7px 7px;
+    -webkit-border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    position: relative;
+
+}
+#mainLogin #createAccountText{
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    color: #1c1e21;
+    margin-top: 3%;
+    margin-left: 20%;
+}
+#mainLogin #quickAndEasyText{
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: 0.01em;
+    margin: 0;
+    margin-top: -4%;
+    margin-left: 36%;
+    color: rgb(101, 101, 101);
+}
+#ad {
+    width: 250px;
+    padding: 10px;
+    width: 170px;
+    margin-top: 2%;
+    margin-left: 3.5%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#nametxt{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: 0.01em;
+    margin-left: 3.5%;
+    color: rgb(101, 101, 101);
+}
+#surnametxt{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: 0.01em;
+    margin-left: 51.5%;
+    margin-top: -5%;
+    color: rgb(101, 101, 101);
+}
+#soyad{
+    width: 250px;
+    padding: 10px;
+    width: 170px;
+    margin-top: 2%;
+    margin-left: 2%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#gender{
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: 0.01em;
+    margin: 0;
+    margin-left: 3.5%;
+    color: rgb(101, 101, 101);
+}
+.gender-container {
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    width: 320px;
+}
+.gender-label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #444;
+}
+.gender-label span {
+    font-size: 12px;
+    color: #777;
+    cursor: pointer;
+}
+.gender-options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -5%;
+}
+.option-box {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px 12px;
+    margin: 0 4px;
+    cursor: pointer;
+    transition: border-color 0.2s;
+}
+.option-box:hover {
+    border-color: #1877f2;
+}
+input[type="radio"] {
+    accent-color: #1877f2;
+    cursor: pointer;
+}
+input[type="radio"]:checked + label .option-box {
+    border-color: #1877f2;
+}
+.option-text {
+    font-size: 15px;
+    color: #333;
+}
+#phonenumber{
+    width: 250px;
+    padding: 10px;
+    width: 375px;
+    margin-top: 2%;
+    margin-left: 3.5%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#email{
+    width: 250px;
+    padding: 10px;
+    width: 375px;
+    margin-top: 2%;
+    margin-left: 3.5%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#password{
+    width: 250px;
+    padding: 10px;
+    width: 375px;
+    margin-top: 2%;
+    margin-left: 3.5%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+
+
