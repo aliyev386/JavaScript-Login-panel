@@ -7,16 +7,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="script.js"></script>
-    <h1 id="titleText">facebook</h1>
     <div id="mainLogin">
-        <h2 id="createAccountText">Yeni Bir Hesap Oluştur</h2>
-        <p id="quickAndEasyText">Hızlı ve kolaydır.</p>
+        <h2 id="createAccountText">Create New Account</h2>
+        <p id="quickAndEasyText">It's quick and easy.</p>
         <hr>
-        <p id="nametxt">name</p>
-        <p id="surnametxt">surname</p>
-        <input type="text" id="ad" planceholder="firstname">
-        <input type="text" id="soyad" planceholder="lastname">
+        <input type="text" id="ad" placeholder="name">
+        <p id="nameValidation"></p>        
+        <input type="text" id="soyad" placeholder="surname">
+        <p id="surnameValidation"></p>
         <p id="gender">Gender</p>
         <div class="gender-container">
             
@@ -24,31 +22,29 @@
                 <label>
                     <input type="radio" name="gender" value="female">
                     <div class="option-box">
-                        <span class="option-text">Kadın</span>
+                        <span class="option-text">Female</span>
                     </div>
                 </label>
                 
                 <label>
                     <input type="radio" name="gender" value="male" checked>
                     <div class="option-box">
-                        <span class="option-text">Erkek</span>
-                    </div>
-                </label>
-                
-                <label>
-                    <input type="radio" name="gender" value="custom">
-                    <div class="option-box">
-                        <span class="option-text">Özel</span>
+                        <span class="option-text">Male</span>
                     </div>
                 </label>
             </div>
         </div>
-        <p id="surnametxt">surname</p>
-        <input type="text" id="phonenumber" planceholder="phone number">
-        <input type="text" id="email" planceholder="email">
-        <input type="text" id="password" planceholder="password">
+        <input type="text" id="phonenumber" placeholder="phone number">
+        <p id="phoneNumberValidation"></p>
+        <input type="text" id="email" placeholder="email">
+        <p id="emailValidation"></p>
+        <input type="text" id="password" placeholder="password">
+        <p id="passwordValidation"></p>
+        
+        <button id="signInButton">Sign up</button>
         
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
 

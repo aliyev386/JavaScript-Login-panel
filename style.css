@@ -13,7 +13,7 @@ body{
 #mainLogin{
     background: #ffffff;
     width: 30%;
-    height: 580px;
+    height: 830px;
     margin-left: 35%;
     margin-top: -1%;
     overflow: hidden;
@@ -24,14 +24,14 @@ body{
     -webkit-border-radius: 7px 7px 7px 7px;
     -moz-border-radius: 7px 7px 7px 7px;
     position: relative;
-
+    margin-top: 5%;
 }
 #mainLogin #createAccountText{
     font-family: "Segoe UI", Helvetica, Arial, sans-serif;
     font-weight: 700;
     color: #1c1e21;
     margin-top: 3%;
-    margin-left: 20%;
+    margin-left: 28%;
 }
 #mainLogin #quickAndEasyText{
     font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -42,9 +42,8 @@ body{
     color: rgb(101, 101, 101);
 }
 #ad {
-    width: 250px;
+    width: 88%;
     padding: 10px;
-    width: 170px;
     margin-top: 2%;
     margin-left: 3.5%;
     border: 1px solid #ccc;
@@ -64,16 +63,15 @@ body{
     margin: 0%;
     font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     letter-spacing: 0.01em;
-    margin-left: 51.5%;
-    margin-top: -5%;
+    margin-left: 3.5%;
+    margin-top: 0%;
     color: rgb(101, 101, 101);
 }
 #soyad{
-    width: 250px;
+    width: 88%;
     padding: 10px;
-    width: 170px;
     margin-top: 2%;
-    margin-left: 2%;
+    margin-left: 3.5%;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
@@ -91,6 +89,9 @@ body{
     border-radius: 8px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
     width: 320px;
+    margin-top: 4%;
+    margin-left: 3.5%;
+    width: 83%;
 }
 .gender-label {
     font-size: 14px;
@@ -112,10 +113,6 @@ body{
     margin-top: -5%;
 }
 .option-box {
-    flex: 1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 8px 12px;
@@ -138,9 +135,8 @@ input[type="radio"]:checked + label .option-box {
     color: #333;
 }
 #phonenumber{
-    width: 250px;
+    width: 88%;
     padding: 10px;
-    width: 375px;
     margin-top: 2%;
     margin-left: 3.5%;
     border: 1px solid #ccc;
@@ -148,9 +144,8 @@ input[type="radio"]:checked + label .option-box {
     font-size: 16px;
 }
 #email{
-    width: 250px;
+    width: 88%;
     padding: 10px;
-    width: 375px;
     margin-top: 2%;
     margin-left: 3.5%;
     border: 1px solid #ccc;
@@ -158,9 +153,8 @@ input[type="radio"]:checked + label .option-box {
     font-size: 16px;
 }
 #password{
-    width: 250px;
+    width: 88%;
     padding: 10px;
-    width: 375px;
     margin-top: 2%;
     margin-left: 3.5%;
     border: 1px solid #ccc;
@@ -168,6 +162,64 @@ input[type="radio"]:checked + label .option-box {
     font-size: 16px;
 }
 
+#phonenumberTxt{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: 0.01em;
+    margin-left: 4%;
+    margin-top: -5%;
+    color: rgb(101, 101, 101);
+    margin-top: 3%;
+}
+#emailTxt{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: 0.01em;
+    margin-left: 4%;
+    margin-top: 0%;
+    color: rgb(101, 101, 101);
+}
+#passwordTxt{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    letter-spacing: 0.01em;
+    margin-left: 4%;
+    margin-top: 0%;
+    color: rgb(101, 101, 101);
+}
+
+
+button{
+    margin-top: 5%;
+    margin-left: 25%;
+    width: 50%;
+    height: 7%;
+    color: white;
+    background-color: rgb(8, 180, 8);
+    font-size: 3ch;
+    border-radius: 10px;
+    border: none;
+}
+
+#nameValidation{
+    margin-left: 3.5%;
+}
+
+#surnameValidation{
+    margin-left: 3.5%;
+}
+#phoneNumberValidation{
+    margin-left: 3.5%;
+}
+#emailValidation{
+    margin-left: 3.5%;
+}
+#passwordValidation{
+    margin-left: 3.5%;
+}
 
 
 
